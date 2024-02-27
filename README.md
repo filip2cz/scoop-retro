@@ -23,17 +23,17 @@ scoop install scoop-retro/<manifestname>
 
 ## Games list
 
-| Game name         | manifestname  |
-| ----------------- | ------------- |
-| Doom 2            | doom2         |
-| Wolfenstein 3D    | Wolfenstein3D |
+| Game name         | manifestname  | Runtime           |
+| ----------------- | ------------- | ----------------- |
+| Doom 2            | doom2         | emulator - DOSBox |
+| Wolfenstein 3D    | Wolfenstein3D | emulator - DOSBox |
 
 ## Other software list
 
-| Software          | manifestname      |
-| ----------------- | ----------------- |
-| AutoCAD 2.18      | AutoCAD-2_18      |
-| Super Fdisk setup | SuperFdiskSetup   |
+| Software          | manifestname      | Runtime           |
+| ----------------- | ----------------- | ----------------- |
+| AutoCAD 2.18      | AutoCAD-2_18      | emulator - DOSBox |
+| Super Fdisk setup | SuperFdiskSetup   | native            |
 
 ## How do I contribute new manifests?
 
