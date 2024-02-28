@@ -25,6 +25,7 @@ scoop install scoop-retro/<manifestname>
 
 | Game name         | manifestname  | Runtime           |
 | ----------------- | ------------- | ----------------- |
+| Cervii            | Cervii        | emulator - DOSBox |
 | Doom 2            | doom2         | emulator - DOSBox |
 | Wolfenstein 3D    | Wolfenstein3D | emulator - DOSBox |
 
