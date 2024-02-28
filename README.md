@@ -23,11 +23,12 @@ scoop install scoop-retro/<manifestname>
 
 ## Games list
 
-| Game name         | manifestname  | Runtime           |
-| ----------------- | ------------- | ----------------- |
-| Cervii            | Cervii        | emulator - DOSBox |
-| Doom 2            | doom2         | emulator - DOSBox |
-| Wolfenstein 3D    | Wolfenstein3D | emulator - DOSBox |
+| Game name                 | manifestname  | Runtime                               |
+| ------------------------- | ------------- | ------------------------------------- |
+| Cervii                    | Cervii        | emulator - DOSBox                     |
+| Doom 2                    | doom2         | emulator - DOSBox                     |
+| The Residents: Freak Show | freakshow     | emulator - DOSBox with Windows 3.1    |
+| Wolfenstein 3D            | Wolfenstein3D | emulator - DOSBox                     |
 
 ## Other software list
 
