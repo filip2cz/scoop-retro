@@ -34,8 +34,8 @@ scoop install scoop-retro/<manifestname>
 | ----------------- | ----------------- | ----------------- |
 | AutoCAD 2.18      | AutoCAD-2_18      | emulator - DOSBox |
 | Super Fdisk setup | SuperFdiskSetup   | native            |
-| Windows 3.1       | Windows-3_1       | native            |
-| Windows 3.1 Czech | Windows-3_1-cz    | native            |
+| Windows 3.1       | Windows-3_1       | emulator - DOSBox |
+| Windows 3.1 Czech | Windows-3_1-cz    | emulator - DOSBox |
 
 ## How do I contribute new manifests?
 
