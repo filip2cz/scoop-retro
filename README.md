@@ -23,21 +23,23 @@ scoop install scoop-retro/<manifestname>
 
 ## Games list
 
-| Game name                 | manifestname  | Runtime                               |
-| ------------------------- | ------------- | ------------------------------------- |
-| Cervii                    | Cervii        | emulator - DOSBox                     |
-| Doom 2                    | doom2         | emulator - DOSBox                     |
-| The Residents: Freak Show | freakshow     | emulator - DOSBox with Windows 3.1    |
-| Wolfenstein 3D            | Wolfenstein3D | emulator - DOSBox                     |
+| Game name                 | manifestname  | Runtime                               | Language  |
+| ------------------------- | ------------- | ------------------------------------- | --------- |
+| Cervii                    | Cervii        | emulator - DOSBox                     | English   |
+| Doom 2                    | doom2         | emulator - DOSBox                     | English   |
+| The Residents: Freak Show | freakshow     | emulator - DOSBox with Windows 3.1    | English   |
+| Wolfenstein 3D            | Wolfenstein3D | emulator - DOSBox                     | English   |
 
 ## Other software list
 
-| Software          | manifestname      | Runtime           |
-| ----------------- | ----------------- | ----------------- |
-| AutoCAD 2.18      | AutoCAD-2_18      | emulator - DOSBox |
-| Super Fdisk setup | SuperFdiskSetup   | native            |
-| Windows 3.1       | Windows-3_1       | emulator - DOSBox |
-| Windows 3.1 Czech | Windows-3_1-cz    | emulator - DOSBox |
+| Software                  | manifestname      | Runtime           | Language  |
+| ------------------------- | ----------------- | ----------------- | --------- |
+| AutoCAD 2.18              | AutoCAD-2_18      | emulator - DOSBox | English   |
+| MS Paint - Win XP         | mspaint-xp        | native            | English   |
+| MS Paint - Win XP Czech   | mspaint-xp-cz     | native            | Czech     |
+| Super Fdisk setup         | SuperFdiskSetup   | native            | English   |
+| Windows 3.1               | Windows-3_1       | emulator - DOSBox | English   |
+| Windows 3.1 Czech         | Windows-3_1-cz    | emulator - DOSBox | Czech     |
 
 ## How do I contribute new manifests?
 
