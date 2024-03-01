@@ -27,6 +27,7 @@ scoop install scoop-retro/<manifestname>
 | ------------------------- | ------------- | ------------------------------------- | --------- |
 | Cervii                    | Cervii        | emulator - DOSBox                     | English   |
 | Doom 2                    | doom2         | emulator - DOSBox                     | English   |
+| Duke Nukem 3D             | duke3d        | emulator - DOSBox                     | English   |
 | The Residents: Freak Show | freakshow     | emulator - DOSBox with Windows 3.1    | English   |
 | Wolfenstein 3D            | Wolfenstein3D | emulator - DOSBox                     | English   |
 
