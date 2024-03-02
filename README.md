@@ -10,13 +10,13 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser; Invoke-Res
 ```
 
 2. Add this bucket and buckets with dependencies (emulators, etc.) into scoop
-```pwsh
+```
 scoop bucket add main; scoop bucket add games; scoop bucket add filip2cz_scoop-retro https://github.com/filip2cz/scoop-retro
 ```
 
-3. Install app you want
-```pwsh
-scoop install filip2cz_scoop-retro/<manifestname>
+3. Install apps you want
+```
+scoop update; scoop install filip2cz_scoop-retro/<manifestname>
 ```
 
 ### After this, you don't have to do first and second step again! Just install anything you want
