@@ -2,7 +2,7 @@
 
 [![Tests](https://github.com/filip2cz/scoop-retro/actions/workflows/ci.yml/badge.svg)](https://github.com/filip2cz/scoop-retro/actions/workflows/ci.yml) [![Excavator](https://github.com/filip2cz/scoop-retro/actions/workflows/excavator.yml/badge.svg)](https://github.com/filip2cz/scoop-retro/actions/workflows/excavator.yml)
 
-## How do I install anything from here?
+## Setup
 
 1. Install scoop if you did not already
 ```pwsh
@@ -14,12 +14,13 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser; Invoke-Res
 scoop bucket add main; scoop bucket add games; scoop bucket add filip2cz_scoop-retro https://github.com/filip2cz/scoop-retro
 ```
 
-3. Install apps you want
+## Usage
+
 ```
 scoop update; scoop install filip2cz_scoop-retro/<manifestname>
 ```
 
-### After this, you don't have to do first and second step again! Just install anything you want
+Use manifestname from tables below instead of `<manifestname>`.
 
 ## Games list
 
