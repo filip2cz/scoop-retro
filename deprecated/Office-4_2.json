@@ -1,0 +1,13 @@
+{
+    "version": "1.0",
+    "license": "unknown",
+    "description": "Microsoft Office 4.3 Professional",
+    "homepage": "https://archive.org/details/msoffice-4.3-pro",
+    "url": ["https://archive.org/download/msoffice-4.3-pro/Office%204.3a%20Pro.iso#/dl.7z"],
+    "hash": [""],
+    "depends": ["extras/otvdm"],
+    "extract_dir": "Microsoft Office 4.2 (ISO)",
+    "post_install": [
+        "cd $HOME\\scoop\\apps\\Office-4_2\\current\\; 7z e OFFS420US.iso; otvdm SETUP.EXE"
+    ]
+}
