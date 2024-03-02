@@ -32,6 +32,7 @@ scoop install scoop-retro/<manifestname>
 | Super Mario Bros.         | SuperMarioBros    | emulator - Mesen                      | English   |
 | Tetris                    | Tetris            | emulator - Mesen                      | English   |
 | The Residents: Freak Show | freakshow         | emulator - DOSBox with Windows 3.1    | English   |
+| Vlak                      | Vlak              | emulator - DOSBox                     | Czech     |
 | Wolfenstein 3D            | Wolfenstein3D     | emulator - DOSBox                     | English   |
 
 ## Other software list
