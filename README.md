@@ -30,6 +30,7 @@ scoop install filip2cz_scoop-retro/<manifestname>
 | Doom 2                    | Doom2             | emulator - DOSBox                     | English   |
 | Duke Nukem 3D             | duke3d            | emulator - DOSBox                     | English   |
 | Super Mario Bros.         | SuperMarioBros    | emulator - Mesen                      | English   |
+| Super Mario Bros. 2       | SuperMarioBros2   | emulator - Mesen                      | English   |
 | Super Mario Land          | SuperMarioLand    | emulator - Mesen                      | English   |
 | Tetris                    | Tetris            | emulator - Mesen                      | English   |
 | The Residents: Freak Show | freakshow         | emulator - DOSBox with Windows 3.1    | English   |
