@@ -23,20 +23,20 @@ scoop update; scoop install filip2cz_scoop-retro/<manifestname>
 
 ## Games list
 
-| Game name                                 | manifestname      | Runtime                               | Language  |
-| ----------------------------------------- | ----------------- | ------------------------------------- | --------- |
-| Cervii                                    | Cervii            | emulator - DOSBox                     | English   |
-| Doom                                      | Doom              | emulator - DOSBox                     | English   |
-| Doom 2                                    | Doom2             | emulator - DOSBox                     | English   |
-| Duke Nukem 3D                             | duke3d            | emulator - DOSBox                     | English   |
-| Super Mario Bros.                         | SuperMarioBros    | emulator - Mesen                      | English   |
-| Super Mario Bros. 2                       | SuperMarioBros2   | emulator - Mesen                      | English   |
-| Super Mario Land                          | SuperMarioLand    | emulator - Mesen                      | English   |
-| Tetris                                    | Tetris            | emulator - Mesen                      | English   |
-| The Residents: Freak Show                 | freakshow         | emulator - DOSBox with Windows 3.1    | English   |
-| The Settlers II 10th Anniversary Czech    | Vlak              | emulator - DOSBox                     | Czech     |
-| Vlak                                      | Vlak              | emulator - DOSBox                     | Czech     |
-| Wolfenstein 3D                            | Wolfenstein3D     | emulator - DOSBox                     | English   |
+| Game name                                 | manifestname          | Runtime                               | Language  |
+| ----------------------------------------- | --------------------- | ------------------------------------- | --------- |
+| Cervii                                    | Cervii                | emulator - DOSBox                     | English   |
+| Doom                                      | Doom                  | emulator - DOSBox                     | English   |
+| Doom 2                                    | Doom2                 | emulator - DOSBox                     | English   |
+| Duke Nukem 3D                             | duke3d                | emulator - DOSBox                     | English   |
+| Super Mario Bros.                         | SuperMarioBros        | emulator - Mesen                      | English   |
+| Super Mario Bros. 2                       | SuperMarioBros2       | emulator - Mesen                      | English   |
+| Super Mario Land                          | SuperMarioLand        | emulator - Mesen                      | English   |
+| Tetris                                    | Tetris                | emulator - Mesen                      | English   |
+| The Residents: Freak Show                 | freakshow             | emulator - DOSBox with Windows 3.1    | English   |
+| The Settlers II 10th Anniversary Czech    | settlers2-remake-cz   | native                                | Czech     |
+| Vlak                                      | Vlak                  | emulator - DOSBox                     | Czech     |
+| Wolfenstein 3D                            | Wolfenstein3D         | emulator - DOSBox                     | English   |
 
 ## Other software list
 
