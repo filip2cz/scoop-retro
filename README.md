@@ -2,6 +2,8 @@
 
 [![Tests](https://github.com/filip2cz/scoop-retro/actions/workflows/ci.yml/badge.svg)](https://github.com/filip2cz/scoop-retro/actions/workflows/ci.yml) [![Excavator](https://github.com/filip2cz/scoop-retro/actions/workflows/excavator.yml/badge.svg)](https://github.com/filip2cz/scoop-retro/actions/workflows/excavator.yml)
 
+![Visitors](https://api.visitorbadge.io/api/daily?path=https%3A%2F%2Fgithub.com%2Ffilip2cz%2Fscoop-retro&label=VISITORS%20TODAY&countColor=%23263759)
+
 ## Setup
 
 1. Install scoop if you did not already
