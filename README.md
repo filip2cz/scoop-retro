@@ -9,9 +9,9 @@
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser; Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
 ```
 
-2. Add this bucket into scoop
+2. Add this bucket and buckets with dependencies (emulators, etc.) into scoop
 ```pwsh
-scoop bucket add scoop-retro https://github.com/filip2cz/scoop-retro
+scoop bucket add main; scoop bucket add games; scoop bucket add scoop-retro https://github.com/filip2cz/scoop-retro
 ```
 
 3. Install app you want
