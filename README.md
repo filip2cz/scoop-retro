@@ -46,12 +46,12 @@ Use manifestname from tables below instead of `<manifestname>`.
 
 | Software                  | manifestname      | Platform | Runtime           | Language  | Notes |
 | ------------------------- | ----------------- | -------- | ----------------- | --------- | - |
-| AutoCAD 2.18              | AutoCAD-2_18      | MS-DOS   | emulator - DOSBox | English   | Recommended config: 11, N, Y, Y, Y, 2, Y, 19, N, 1, 1 |
-| MS Paint - Win XP         | mspaint-xp        | Win x86  | native            | English   |
-| MS Paint - Win XP Czech   | mspaint-xp-cz     | Win x86  | native            | Czech     |
-| Super Fdisk setup         | SuperFdiskSetup   | Win x86  | native            | English   |
-| Windows 3.1               | Windows-3_1       | MS-DOS   | emulator - DOSBox | English   |
-| Windows 3.1 Czech         | Windows-3_1-cz    | MS-DOS   | emulator - DOSBox | Czech     |
+| AutoCAD 2.18              | AutoCAD-2_18      | MS-DOS   | emulator - DOSBox | English   | Recommended config: Default, except Graphic Display -> 2; Digitizer -> 19 |
+| MS Paint - Win XP         | mspaint-xp        | Win x86  | native            | English   | |
+| MS Paint - Win XP Czech   | mspaint-xp-cz     | Win x86  | native            | Czech     | |
+| Super Fdisk setup         | SuperFdiskSetup   | Win x86  | native            | English   | |
+| Windows 3.1               | Windows-3_1       | MS-DOS   | emulator - DOSBox | English   | |
+| Windows 3.1 Czech         | Windows-3_1-cz    | MS-DOS   | emulator - DOSBox | Czech     | |
 
 ## How do I contribute new manifests?
 
