@@ -44,9 +44,9 @@ Use manifestname from tables below instead of `<manifestname>`.
 
 ## Other software list
 
-| Software                  | manifestname      | Platform | Runtime           | Language  |
-| ------------------------- | ----------------- | -------- | ----------------- | --------- |
-| AutoCAD 2.18              | AutoCAD-2_18      | MS-DOS   | emulator - DOSBox | English   |
+| Software                  | manifestname      | Platform | Runtime           | Language  | Notes |
+| ------------------------- | ----------------- | -------- | ----------------- | --------- | - |
+| AutoCAD 2.18              | AutoCAD-2_18      | MS-DOS   | emulator - DOSBox | English   | Recommended config: 11, N, Y, Y, Y, 2, Y, 19, N, 1, 1 |
 | MS Paint - Win XP         | mspaint-xp        | Win x86  | native            | English   |
 | MS Paint - Win XP Czech   | mspaint-xp-cz     | Win x86  | native            | Czech     |
 | Super Fdisk setup         | SuperFdiskSetup   | Win x86  | native            | English   |
