@@ -26,32 +26,32 @@ Use manifestname from tables below instead of `<manifestname>`.
 
 ## Games list
 
-| Game name                                 | manifestname          | Platform      | Runtime                               | Language  |
-| ----------------------------------------- | --------------------- | ------------- | ------------------------------------- | --------- |
-| Cervii                                    | Cervii                | MS-DOS        | emulator - DOSBox                     | English   |
-| Doom                                      | Doom                  | MS-DOS        | emulator - DOSBox                     | English   |
-| Doom 2                                    | Doom2                 | MS-DOS        | emulator - DOSBox                     | English   |
-| Duke Nukem 3D                             | duke3d                | MS-DOS        | emulator - DOSBox                     | English   |
-| PortaMonkey                               | PortaMonkey           | PalmOS        | emulator - Mu with Retroarch          | English   |
-| Super Mario Bros.                         | SuperMarioBros        | NES           | emulator - Mesen                      | English   |
-| Super Mario Bros. 2                       | SuperMarioBros2       | NES           | emulator - Mesen                      | English   |
-| Super Mario Land                          | SuperMarioLand        | NES           | emulator - Mesen                      | English   |
-| Tetris                                    | Tetris                | NES           | emulator - Mesen                      | English   |
-| The Residents: Freak Show                 | freakshow             | Windows 3.1   | emulator - DOSBox with Windows 3.1    | English   |
-| The Settlers II 10th Anniversary Czech    | settlers2-remake-cz   | Windows x86   | native                                | Czech     |
-| Vlak                                      | Vlak                  | MS-DOS        | emulator - DOSBox                     | Czech     |
-| Wolfenstein 3D                            | Wolfenstein3D         | MS-DOS        | emulator - DOSBox                     | English   |
+| Game name                                 | manifestname          | Platform | Runtime                               | Language  |
+| ----------------------------------------- | --------------------- | -------- | ------------------------------------- | --------- |
+| Cervii                                    | Cervii                | MS-DOS   | emulator - DOSBox                     | English   |
+| Doom                                      | Doom                  | MS-DOS   | emulator - DOSBox                     | English   |
+| Doom 2                                    | Doom2                 | MS-DOS   | emulator - DOSBox                     | English   |
+| Duke Nukem 3D                             | duke3d                | MS-DOS   | emulator - DOSBox                     | English   |
+| PortaMonkey                               | PortaMonkey           | PalmOS   | emulator - Mu with Retroarch          | English   |
+| Super Mario Bros.                         | SuperMarioBros        | NES      | emulator - Mesen                      | English   |
+| Super Mario Bros. 2                       | SuperMarioBros2       | NES      | emulator - Mesen                      | English   |
+| Super Mario Land                          | SuperMarioLand        | NES      | emulator - Mesen                      | English   |
+| Tetris                                    | Tetris                | NES      | emulator - Mesen                      | English   |
+| The Residents: Freak Show                 | freakshow             | Win 3.1  | emulator - DOSBox with Windows 3.1    | English   |
+| The Settlers II 10th Anniversary Czech    | settlers2-remake-cz   | Win x86  | native                                | Czech     |
+| Vlak                                      | Vlak                  | MS-DOS   | emulator - DOSBox                     | Czech     |
+| Wolfenstein 3D                            | Wolfenstein3D         | MS-DOS   | emulator - DOSBox                     | English   |
 
 ## Other software list
 
-| Software                  | manifestname      | Platform      | Runtime           | Language  |
-| ------------------------- | ----------------- | ------------- | ----------------- | --------- |
-| AutoCAD 2.18              | AutoCAD-2_18      | MS-DOS        | emulator - DOSBox | English   |
-| MS Paint - Win XP         | mspaint-xp        | Windows x86   | native            | English   |
-| MS Paint - Win XP Czech   | mspaint-xp-cz     | Windows x86   | native            | Czech     |
-| Super Fdisk setup         | SuperFdiskSetup   | Windows x86   | native            | English   |
-| Windows 3.1               | Windows-3_1       | MS-DOS        | emulator - DOSBox | English   |
-| Windows 3.1 Czech         | Windows-3_1-cz    | MS-DOS        | emulator - DOSBox | Czech     |
+| Software                  | manifestname      | Platform | Runtime           | Language  |
+| ------------------------- | ----------------- | -------- | ----------------- | --------- |
+| AutoCAD 2.18              | AutoCAD-2_18      | MS-DOS   | emulator - DOSBox | English   |
+| MS Paint - Win XP         | mspaint-xp        | Win x86  | native            | English   |
+| MS Paint - Win XP Czech   | mspaint-xp-cz     | Win x86  | native            | Czech     |
+| Super Fdisk setup         | SuperFdiskSetup   | Win x86  | native            | English   |
+| Windows 3.1               | Windows-3_1       | MS-DOS   | emulator - DOSBox | English   |
+| Windows 3.1 Czech         | Windows-3_1-cz    | MS-DOS   | emulator - DOSBox | Czech     |
 
 ## How do I contribute new manifests?
 
