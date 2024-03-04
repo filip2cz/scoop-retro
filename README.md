@@ -28,6 +28,7 @@ Use manifestname from tables below instead of `<manifestname>`.
 
 | Game name                                 | manifestname          | Platform | Runtime                               | Language  |
 | ----------------------------------------- | --------------------- | -------- | ------------------------------------- | --------- |
+| Bang! Bang!                               | BangBang              | PalmOS   | emulator - Mu with Retroarch          | English   |
 | Cervii                                    | Cervii                | MS-DOS   | emulator - DOSBox                     | English   |
 | Doom                                      | Doom                  | MS-DOS   | emulator - DOSBox                     | English   |
 | Doom 2                                    | Doom2                 | MS-DOS   | emulator - DOSBox                     | English   |
