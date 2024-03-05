@@ -1,0 +1,22 @@
+{
+    "version": "1.0",
+    "license": "unknown",
+    "description": "Windows 95 Czech",
+    "homepage": "https://winworldpc.com/download/c3a2121c-c393-c385-c3b0-11c3a6c2bb2a",
+    "url": ["https://winworldpc.com/download/c3a2121c-c393-c385-c3b0-11c3a6c2bb2a/from/c39ac2af-c381-c2bf-1b25-11c3a4e284a2#/dl.7z"],
+    "hash": ["4175B33C7F8DE81AE9F59B77A97D266AF54C4E7D0FE47D13A9C552A239F1EBFE"],
+    "depends": ["main/dosbox"],
+    "pre_install": [
+        "Set-Content -Path '~\\scoop\\apps\\Windows-95-cz\\1.0\\run.bat' -Value '%userprofile%\\scoop\\apps\\dosbox\\current\\DOSBox.exe -c \"mount c %userprofile%\\scoop\\apps\\Windows-95-cz\\current\\drive\\ \" -c \" c: \" -c \" cd WINDOWS \" -c \" WIN.COM \" -c \" exit \"'",
+        "mkdir ~\\scoop\\apps\\Windows-95-cz\\1.0\\drive; mkdir ~\\scoop\\apps\\Windows-95-cz\\1.0\\\\drive\\wininst; 7z e $HOME\\scoop\\apps\\Windows-95-cz\\1.0\\disk01.iso -o''$HOME'\\scoop\\apps\\Windows-95-cz\\1.0\\drive\\wininst\\'"
+    ],
+    "shortcuts": [
+        [
+            "run.bat",
+            "Windiows 95 Czech"
+        ]
+    ],
+    "post_install": [
+        "dosbox -c \"mount c $HOME\\scoop\\apps\\Windows-95-cz\\current\\drive\\ \" -c \"c: \" -c \"cd WININST \" -c \"SETUP.EXE\""
+    ]
+}
