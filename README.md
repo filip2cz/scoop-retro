@@ -6,6 +6,8 @@
 
 ## Setup
 
+Just paste commands below into Powershell
+
 1. Install scoop if you did not already
 ```pwsh
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser; Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
@@ -18,6 +20,7 @@ scoop bucket add main; scoop bucket add extras; scoop bucket add games; scoop bu
 
 ## Usage
 
+In powershell, execute this command:
 ```
 scoop update; scoop install filip2cz_scoop-retro/<manifestname>
 ```
