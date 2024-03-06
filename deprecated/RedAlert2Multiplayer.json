@@ -1,0 +1,17 @@
+{
+    "version": "1.0",
+    "license": "unknown",
+    "homepage": "https://archive.org/details/red-alert-2-multiplayer",
+    "description": "Red Alert 2 (XWIS Version) released as freeware, can only do multiplayer.",
+    "url": "https://archive.org/download/red-alert-2-multiplayer/Red-Alert-2-Multiplayer.exe",
+    "hash": "5388C54D7D7B73060083563FF1926BCA0D2663A76678B807E23E9A8D491441CE",
+    "pre_install":[
+        ""
+    ],
+    "shortcuts": [
+        [
+            "run.exe",
+            "Red Alert 2 Multiplayer"
+        ]
+    ]
+}
