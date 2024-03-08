@@ -29,24 +29,25 @@ Use manifestname from tables below instead of `<manifestname>`.
 
 ## Games list
 
-| Game name                                 | manifestname          | Platform | Runtime                               | Language  | Notes  |
-| ----------------------------------------- | --------------------- | -------- | ------------------------------------- | --------- | ------ |
-| Bang! Bang!                               | BangBang              | PalmOS   | emulator - Mu with Retroarch          | English   |        |
-| Cervii                                    | Cervii                | MS-DOS   | emulator - DOSBox                     | English   |        |
-| Contra                                    | Contra                | NES      | emulator - Mesen                      | English   |        |
-| Doom                                      | Doom                  | MS-DOS   | emulator - DOSBox                     | English   |        |
-| Doom 2                                    | Doom2                 | MS-DOS   | emulator - DOSBox                     | English   |        |
-| Duke Nukem 3D                             | duke3d                | MS-DOS   | emulator - DOSBox                     | English   |        |
-| Plants vs Zombies | PlantsVsZombies | Win x86 | native | English | Version with good old dancing zombies |
-| PortaMonkey                               | PortaMonkey           | PalmOS   | emulator - Mu with Retroarch          | English   |        |
-| Super Mario Bros.                         | SuperMarioBros        | NES      | emulator - Mesen                      | English   |        |
-| Super Mario Bros. 2                       | SuperMarioBros2       | NES      | emulator - Mesen                      | English   |        |
-| Super Mario Land                          | SuperMarioLand        | NES      | emulator - bgb                        | English   |        |
-| Tetris                                    | Tetris                | NES      | emulator - Mesen                      | English   |        |
-| The Residents: Freak Show                 | freakshow             | Win 3.1  | emulator - DOSBox with Windows 3.1    | English   |        |
-| The Settlers II 10th Anniversary Czech    | settlers2-remake-cz   | Win x86  | native                                | Czech     |        |
-| Vlak                                      | Vlak                  | MS-DOS   | emulator - DOSBox                     | Czech     |        |
-| Wolfenstein 3D                            | Wolfenstein3D         | MS-DOS   | emulator - DOSBox                     | English   |        |
+| Game name                                 | manifestname          | Platform  | Runtime                               | Language  | Notes |
+| ----------------------------------------- | --------------------- | --------- | ------------------------------------- | --------- | ----- |
+| Bang! Bang!                               | BangBang              | PalmOS    | emulator - Mu with Retroarch          | English   |       |
+| Cervii                                    | Cervii                | MS-DOS    | emulator - DOSBox                     | English   |       |
+| Contra                                    | Contra                | NES       | emulator - Mesen                      | English   |       |
+| Doom                                      | Doom                  | MS-DOS    | emulator - DOSBox                     | English   |       |
+| Doom 2                                    | Doom2                 | MS-DOS    | emulator - DOSBox                     | English   |       |
+| Driver            | Driver | Win x86 | native | English | If it crashes, you can run it in compatability mode - Windows XP service pack 3 |
+| Duke Nukem 3D                             | duke3d                | MS-DOS    | emulator - DOSBox                     | English   |       |
+| Plants vs Zombies                         | PlantsVsZombies       | Win x86   | native | English | Version with good old dancing zombies  |
+| PortaMonkey                               | PortaMonkey           | PalmOS    | emulator - Mu with Retroarch          | English   |       |
+| Super Mario Bros.                         | SuperMarioBros        | NES       | emulator - Mesen                      | English   |       |
+| Super Mario Bros. 2                       | SuperMarioBros2       | NES       | emulator - Mesen                      | English   |       |
+| Super Mario Land                          | SuperMarioLand        | NES       | emulator - bgb                        | English   |       |
+| Tetris                                    | Tetris                | NES       | emulator - Mesen                      | English   |       |
+| The Residents: Freak Show                 | freakshow             | Win 3.1   | emulator - DOSBox with Windows 3.1    | English   |       |
+| The Settlers II 10th Anniversary Czech    | settlers2-remake-cz   | Win x86   | native                                | Czech     |       |
+| Vlak                                      | Vlak                  | MS-DOS    | emulator - DOSBox                     | Czech     |       |
+| Wolfenstein 3D                            | Wolfenstein3D         | MS-DOS    | emulator - DOSBox                     | English   |       |
 
 ## Other software list
 
