@@ -33,10 +33,11 @@ Use manifestname from tables below instead of `<manifestname>`.
 | ----------------------------------------- | --------------------- | -------- | ------------------------------------- | --------- | ------ |
 | Bang! Bang!                               | BangBang              | PalmOS   | emulator - Mu with Retroarch          | English   |        |
 | Cervii                                    | Cervii                | MS-DOS   | emulator - DOSBox                     | English   |        |
+| Contra                                    | Contra                | NES      | emulator - Mesen                      | English   |        |
 | Doom                                      | Doom                  | MS-DOS   | emulator - DOSBox                     | English   |        |
 | Doom 2                                    | Doom2                 | MS-DOS   | emulator - DOSBox                     | English   |        |
 | Duke Nukem 3D                             | duke3d                | MS-DOS   | emulator - DOSBox                     | English   |        |
-| Plants vs Zombies                         | PlantsVsZombies       | Win x86  | native                                | English   | Version with good old dancing zombies |
+| Plants vs Zombies | PlantsVsZombies | Win x86 | native | English | Version with good old dancing zombies |
 | PortaMonkey                               | PortaMonkey           | PalmOS   | emulator - Mu with Retroarch          | English   |        |
 | Super Mario Bros.                         | SuperMarioBros        | NES      | emulator - Mesen                      | English   |        |
 | Super Mario Bros. 2                       | SuperMarioBros2       | NES      | emulator - Mesen                      | English   |        |
@@ -51,7 +52,7 @@ Use manifestname from tables below instead of `<manifestname>`.
 
 | Software                  | manifestname      | Platform | Runtime           | Language  | Notes |
 | ------------------------- | ----------------- | -------- | ----------------- | --------- | - |
-| AutoCAD 2.18              | AutoCAD-2_18      | MS-DOS   | emulator - DOSBox | English   | Recommended config: Default, except Graphic Display -> 2; Digitizer -> 19 |
+| AutoCAD 2.18 | AutoCAD-2_18 | MS-DOS | emulator - DOSBox | English | Recommended config: Default, except Graphic Display -> 2; Digitizer -> 19 |
 | MS Paint - Win XP         | mspaint-xp        | Win x86  | native            | English   | |
 | MS Paint - Win XP Czech   | mspaint-xp-cz     | Win x86  | native            | Czech     | |
 | Super Fdisk setup         | SuperFdiskSetup   | Win x86  | native            | English   | |
