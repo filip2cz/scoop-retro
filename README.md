@@ -31,6 +31,7 @@ Use manifestname from tables below instead of `<manifestname>`.
 
 | Game name                                 | manifestname          | Platform  | Runtime                               | Language  | Notes |
 | ----------------------------------------- | --------------------- | --------- | ------------------------------------- | --------- | ----- |
+| 3D Pinball                                | Pinball               | Win x86   | native                | English | Version from Windows XP |
 | Bang! Bang!                               | BangBang              | PalmOS    | emulator - Mu with Retroarch          | English   |       |
 | Cervii                                    | Cervii                | MS-DOS    | emulator - DOSBox                     | English   |       |
 | Contra                                    | Contra                | NES       | emulator - Mesen                      | English   |       |
