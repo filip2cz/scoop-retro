@@ -33,6 +33,7 @@ Use manifestname from tables below instead of `<manifestname>`.
 | ----------------------------------------- | --------------------- | --------- | ------------------------------------- | --------- | ----- |
 | 3D Pinball                                | Pinball               | Win x86   | native                | English | Version from Windows XP |
 | Bang! Bang!                               | BangBang              | PalmOS    | emulator - Mu with Retroarch          | English   |       |
+| Bulánci                                   | Bulanci               | Win x86   | native                                | Czech     |       |
 | Cervii                                    | Cervii                | MS-DOS    | emulator - DOSBox                     | English   |       |
 | Contra                                    | Contra                | NES       | emulator - Mesen                      | English   |       |
 | Doom                                      | Doom                  | MS-DOS    | emulator - DOSBox                     | English   |       |
