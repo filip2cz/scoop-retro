@@ -44,6 +44,8 @@ Use manifestname from tables below instead of `<manifestname>`.
 | Minesweeper / Hledání min                 | minesweeper-cz        | Win x86   | native                | Czech   | Version from Windows XP |
 | Plants vs Zombies                         | PlantsVsZombies       | Win x86   | native | English | Version with good old dancing zombies  |
 | PortaMonkey                               | PortaMonkey           | PalmOS    | emulator - Mu with Retroarch          | English   |       |
+| Solitaire + Spider Solitaire              | solitaire             | Win x86   | native                | English | Version from Windows XP |
+| Solitaire + Spider Solitaire              | solitaire-cz          | Win x86   | native                | Czech   | Version from Windows XP |
 | Super Mario Bros.                         | SuperMarioBros        | NES       | emulator - Mesen                      | English   |       |
 | Super Mario Bros. 2                       | SuperMarioBros2       | NES       | emulator - Mesen                      | English   |       |
 | Super Mario Land                          | SuperMarioLand        | NES       | emulator - bgb                        | English   |       |
