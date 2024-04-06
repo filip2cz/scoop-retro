@@ -72,3 +72,17 @@ To make a new manifest contribution, please read the [Contributing
 Guide](https://github.com/ScoopInstaller/.github/blob/main/.github/CONTRIBUTING.md)
 and [App Manifests](https://github.com/ScoopInstaller/Scoop/wiki/App-Manifests)
 wiki page.
+
+## FAQ
+
+### How can I launch my software?
+You should have icon in your start menu. If you can't find it, try to find `Scoop Apps` folder in start menu.
+
+### Where it is installed?
+Apps are installed by default into scoop folder in your home directory.
+
+### Isn't it virus?
+This repo is not any software technically. It is just instructions for Scoop (https://scoop.sh/) where to download things. Scoop is not virus, it is opensource and community trusted software. Games and software is mostly downloaded from archive.org, you can everytime check if you trust source with command `scoop cat <manifestname>` and find download url.
+
+### What is source of this software?
+Games and software is mostly downloaded from archive.org, you can everytime check if you trust source with command `scoop cat <manifestname>` and find download url.
