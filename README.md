@@ -45,6 +45,7 @@ Use manifestname from tables below instead of `<manifestname>`.
 | Minesweeper                               | minesweeper           | Win x86   | native                | English | Version from Windows XP |
 | Minesweeper / Hledání min                 | minesweeper-cz        | Win x86   | native                | Czech   | Version from Windows XP |
 | Plants vs Zombies                         | PlantsVsZombies       | Win x86   | native | English | Version with good old dancing zombies  |
+| Playboy                                   | playboy               | MS-DOS    | emulator - DOSBox                     | Czech     |       |
 | PortaMonkey                               | PortaMonkey           | PalmOS    | emulator - Mu with Retroarch          | English   |       |
 | Solitaire + Spider Solitaire              | solitaire             | Win x86   | native                | English | Version from Windows XP |
 | Solitaire + Spider Solitaire              | solitaire-cz          | Win x86   | native                | Czech   | Version from Windows XP |
