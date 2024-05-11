@@ -1,8 +1,11 @@
 {
     "version": "1.0",
     "license": "unknown",
-    "homepage": "url",
-    "url": ["fileurl", "iconurl#/icon.ico"],
+    "homepage": "https://example.com",
+    "url": [
+        "https://example.com/file",
+        "https://example.com/icon#/icon.ico"
+    ],
     "hash": [
         "4C7E717A527CA42333E1D182597904E220946F93D6F9000E4938246CC025AF43",
         "0a7ae0159dc800a87d2ddfb167e9680b02874eb5478a6ea8eea564790b0fba9f"
