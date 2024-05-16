@@ -1,0 +1,26 @@
+{
+    "version": "1.0",
+    "license": "unknown",
+    "homepage": "https://archive.org/details/NeedForSpeedIIPlusSE-and-OverDrivin-LivBs",
+    "url": [
+        "https://archive.org/download/NeedForSpeedIIPlusSE-and-OverDrivin-LivBs/PSX/Need%20for%20Speed%20II%20%28USA%29.zip",
+        "https://cdn2.steamgriddb.com/icon/9b31229c5fd58c1ddb694f0232d0dd1f.ico#/icon.ico"
+    ],
+    "hash": [
+        "af93f3dc66ab2155b2d74a409754987a07c1bd42115a1d50bc8b3760097dc956",
+        "17ce04ba20fe8464615aeef516ccf2d1aadcdeb7b1f70ef123af50683986612a"
+    ],
+    "depends": ["games/duckstation", "filip2cz_scoop-retro/SCPH1001"],
+    "shortcuts": [
+        [
+            "run.bat",
+            "Need for Speed 2"
+        ]
+    ],
+    "pre_install":[
+        "Set-Content -Path '~\\scoop\\apps\\needforspeed2\\1.0\\run.bat' -Value '%userprofile%\\scoop\\apps\\duckstation\\current\\duckstation-qt-x64-ReleaseLTCG.exe %userprofile%\\scoop\\apps\\needforspeed2\\current\\Need for Speed II (USA).bin'"
+    ],
+    "post_install":[
+        "$shortcutPath = Join-Path $env:USERPROFILE 'AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Scoop Apps\\Need for Speed 2.lnk'; $iconPath = Join-Path $env:USERPROFILE 'scoop\\apps\\needforspeed2\\current\\icon.ico'; $shell = New-Object -ComObject WScript.Shell; $shortcut = $shell.CreateShortcut($shortcutPath); $shortcut.IconLocation = $iconPath; $shortcut.Save()"
+    ]
+}
