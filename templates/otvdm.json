@@ -1,0 +1,23 @@
+{
+    "version": "1.0",
+    "license": "unknown",
+    "homepage": "https://example.com",
+    "url": [
+        "https://example.com/file",
+        "https://example.com/icon#/icon.ico"
+    ],
+    "hash": [
+        "cffab49ce19fc02cc302e4117e39bfc7c529d9570391def7458c670067bc39b0",
+        "ee746e67eabb62cb6f6a3e09cbbb63e365150456ec50e041396bc97a209e159f"
+    ],
+    "depends": ["extras/otvdm"],
+    "shortcuts": [
+        [
+            "run.bat",
+            "Gamename"
+        ]
+    ],
+    "post_install":[
+        "Set-Content -Path '~\\scoop\\apps\\manifestname\\current\\run.bat' -Value '%userprofile%\\scoop\\apps\\otvdm\\current\\otvdm.exe %userprofile%\\scoop\\apps\\manifestname\\current\\executable -exit'; $shortcutPath = Join-Path $env:USERPROFILE 'AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Scoop Apps\\Gamename.lnk'; $iconPath = Join-Path $env:USERPROFILE 'scoop\\apps\\manifestname\\current\\icon.ico'; $shell = New-Object -ComObject WScript.Shell; $shortcut = $shell.CreateShortcut($shortcutPath); $shortcut.IconLocation = $iconPath; $shortcut.Save()"
+    ]
+}
