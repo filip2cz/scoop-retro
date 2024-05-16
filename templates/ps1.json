@@ -1,0 +1,26 @@
+{
+    "version": "1.0",
+    "license": "unknown",
+    "homepage": "https://example.com",
+    "url": [
+        "https://example.com/file",
+        "https://example.com/icon#/icon.ico"
+    ],
+    "hash": [
+        "F6C61362D53BFB536E9134D0B2338F6A02E9D295030818C57240FE155115599A",
+        "118496c22bedb256da5ace7c91ff1812cd137c991f7ed9d80746345ef53c2cfa"
+    ],
+    "depends": ["games/duckstation"],
+    "pre_install": [
+        "Set-Content -Path '~\\scoop\\apps\\manifestname\\current\\run.bat' -Value '%userprofile%\\scoop\\apps\\duckstation\\current\\duckstation-qt-x64-ReleaseLTCG.exe %userprofile%\\scoop\\apps\\manifestname\\current\\executable -exit'"
+    ],
+    "shortcuts": [
+        [
+            "run.bat",
+            "Gamename"
+        ]
+    ],
+    "post_install":[
+        "$shortcutPath = Join-Path $env:USERPROFILE 'AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Scoop Apps\\Gamename.lnk'; $iconPath = Join-Path $env:USERPROFILE 'scoop\\apps\\manifestname\\current\\icon.ico'; $shell = New-Object -ComObject WScript.Shell; $shortcut = $shell.CreateShortcut($shortcutPath); $shortcut.IconLocation = $iconPath; $shortcut.Save()"
+    ]
+}
