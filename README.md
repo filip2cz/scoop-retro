@@ -40,6 +40,7 @@ Use manifestname from tables below instead of `<manifestname>`.
 | Doom 2                                    | Doom2                 | MS-DOS    | emulator - DOSBox                     | English   |       |
 | Driver            | Driver | Win x86 | native | English | If it crashes, you can run it in compatability mode - Windows XP service pack 3 |
 | Duke Nukem 3D                             | duke3d                | MS-DOS    | emulator - DOSBox                     | English   |       |
+| Dyna Blaster                              | DynaBlaster   | MS-DOS | emulator - DOSBox | English   | This game is also known as Bomberman |
 | Fallout Van Buren      | FalloutVanBuren | Win x86 | native | English   | This game was canceled after bankrupt, so this is only playtest |
 | Grand Theft Auto                         | GrandTheftAuto         | MS-DOS    | emulator - DOSBox                     | English   |       |
 | Minesweeper                               | minesweeper           | Win x86   | native                | English | Version from Windows XP |
