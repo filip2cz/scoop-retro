@@ -65,6 +65,7 @@ Use manifestname from tables below instead of `<manifestname>`.
 | Software                  | manifestname      | Platform | Runtime           | Language  | Notes |
 | ------------------------- | ----------------- | -------- | ----------------- | --------- | - |
 | AutoCAD 2.18 | AutoCAD-2_18 | MS-DOS | emulator - DOSBox | English | Recommended config: Default, except Graphic Display -> 2; Digitizer -> 19 |
+| Johnny Castaway           | JohnnyCastaway    | Win 3.1  | emulator - DOSBox | English   | alternative name: The Adventures of Johnny Castaway |
 | MS Paint - Win XP         | mspaint-xp        | Win x86  | native            | English   | |
 | MS Paint - Win XP Czech   | mspaint-xp-cz     | Win x86  | native            | Czech     | |
 | Super Fdisk setup         | SuperFdiskSetup   | Win x86  | native            | English   | |
