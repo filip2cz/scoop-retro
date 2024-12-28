@@ -13,14 +13,14 @@
     ],
     "depends": ["extras/retroarch", "filip2cz_scoop-retro/retroarch-mu_libretro", "filip2cz_scoop-retro/palmos41-en-m515_rom"],
     "pre_install": [
-        "$scoopPathBin = scoop which scoop; $scoopPathDir = $scoopPathBin -replace [regex]::Escape('\\scoop\\current\\bin\\scoop.ps1'), ''; $scoopPathDirFull = $scoopPathDir -replace '^~', [System.Environment]::GetFolderPath('UserProfile'); Set-Content -Path \"$scoopPathDirFull\\manifest\\1.0\\run.bat\" -Value \"$scoopPathDirFull\\retroarch\\current\\retroarch.exe -L $scoopPathDirFull\\retroarch\\current\\cores\\mu_libretro.dll $scoopPathDirFull\\manifest\\current\\file.prc\""
+        "Set-Content -Path \"$original_dir\\run.bat\" -Value \"$scoopdir\\apps\\retroarch\\current\\retroarch.exe -L $scoopdir\\apps\\retroarch\\current\\cores\\mu_libretro.dll $dir\\file.prc\""
     ],
     "shortcuts": [
         [
             "run.bat",
-            "Gamename",
+            "Bang! Bang!",
             "",
-            "icon.ico"
+            "PalmOS.ico"
         ]
     ]
 }
