@@ -14,10 +14,9 @@
     "shortcuts": [
         [
             "run.bat",
-            "Gamename"
+            "Gamename",
+            "",
+            "icon.ico"
         ]
-    ],
-    "post_install":[
-        "Set-Content -Path '~\\scoop\\apps\\manifestname\\current\\run.bat' -Value '%userprofile%\\scoop\\apps\\otvdm\\current\\otvdm.exe %userprofile%\\scoop\\apps\\manifestname\\current\\executable -exit'; $shortcutPath = Join-Path $env:USERPROFILE 'AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Scoop Apps\\Gamename.lnk'; $iconPath = Join-Path $env:USERPROFILE 'scoop\\apps\\manifestname\\current\\icon.ico'; $shell = New-Object -ComObject WScript.Shell; $shortcut = $shell.CreateShortcut($shortcutPath); $shortcut.IconLocation = $iconPath; $shortcut.Save()"
     ]
 }

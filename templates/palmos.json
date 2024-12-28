@@ -18,10 +18,9 @@
     "shortcuts": [
         [
             "run.bat",
-            "Gamename"
+            "Gamename",
+            "",
+            "icon.ico"
         ]
-    ],
-    "post_install":[
-        "$scoopPathBin = scoop which scoop; $scoopPathDir = $scoopPathBin -replace [regex]::Escape('\\scoop\\current\\bin\\scoop.ps1'), ''; $scoopPathDirFull = $scoopPathDir -replace '^~', [System.Environment]::GetFolderPath('UserProfile'); $shortcutPath = Join-Path $env:USERPROFILE 'AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Scoop Apps\\Gamename.lnk'; $iconPath = Join-Path $scoopPathDirFull '\\manifestname\\current\\icon.ico'; $shell = New-Object -ComObject WScript.Shell; $shortcut = $shell.CreateShortcut($shortcutPath); $shortcut.IconLocation = $iconPath; $shortcut.Save()"
     ]
 }
