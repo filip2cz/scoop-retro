@@ -42,6 +42,7 @@ Use manifestname from tables below instead of `<manifestname>`.
 | Duke Nukem 3D                             | duke3d                | MS-DOS    | emulator - DOSBox                     | English   |       |
 | Dyna Blaster                              | DynaBlaster   | MS-DOS | emulator - DOSBox | English   | This game is also known as Bomberman |
 | Fallout Van Buren      | FalloutVanBuren | Win x86 | native | English   | This game was canceled after bankrupt, so this is only playtest |
+| F1 Race                                   | f1race                | NES       | emulator - Mesen                      | English   |       |
 | Grand Theft Auto                         | GrandTheftAuto         | MS-DOS    | emulator - DOSBox                     | English   |       |
 | Minesweeper                               | minesweeper           | Win x86   | native                | English | Version from Windows XP |
 | Minesweeper / Hledání min                 | minesweeper-cz        | Win x86   | native                | Czech   | Version from Windows XP |
