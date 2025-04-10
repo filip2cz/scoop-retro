@@ -56,6 +56,7 @@ Use manifestname from tables below instead of `<manifestname>`.
 | Super Mario Bros. 2                       | SuperMarioBros2       | NES       | emulator - Mesen                      | English   |       |
 | Super Mario Land                          | SuperMarioLand        | GameBoy   | emulator - bgb                        | English   |       |
 | Tetris                                    | Tetris                | NES       | emulator - Mesen                      | English   |       |
+| Tetris Attack                             | tetris-attack         | SNES      | emulator - Snes9x                     | English   |       |
 | The Residents: Freak Show                 | freakshow             | Win 3.1   | emulator - DOSBox with Windows 3.1    | English   |       |
 | The Settlers II 10th Anniversary Czech    | settlers2-remake-cz   | Win x86   | native                                | Czech     |       |
 | Vlak                                      | Vlak                  | MS-DOS    | emulator - DOSBox                     | Czech     |       |
