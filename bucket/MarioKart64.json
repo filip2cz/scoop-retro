@@ -4,11 +4,11 @@
     "homepage": "https://archive.org/details/mario-kart-64_202204",
     "url": [
         "https://archive.org/download/mario-kart-64_202204/Mario%20Kart%2064%20%28USA%29.zip",
-        "https://cdn2.steamgriddb.com/icon/0bbe58bcddff3a323efab7d74a1f9b04.ico#/icon.ico"
+        "https://cdn2.steamgriddb.com/icon/6ee0208730157b0b4d5d44705f954895.ico#/icon.ico"
     ],
     "hash": [
         "1e5bfa5d7f96c5dc49b4c9a3eda02176668639b99681702a8ce2a66a52269ddb",
-        "1a7015875d0e89ac360d242f5bdcbf833f0606943cdbac81693f2cad01559c31"
+        "9f253d76d52e040fafff667083bf62ec68e901aab27760672678d44188c4c156"
     ],
     "depends": ["games/project64"],
     "pre_install": [
