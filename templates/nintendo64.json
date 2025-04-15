@@ -1,0 +1,25 @@
+{
+    "version": "1.0",
+    "license": "unknown",
+    "homepage": "https://example.com/",
+    "url": [
+        "https://example.com/game.zip",
+        "https://example.com/game.ico#/icon.ico"
+    ],
+    "hash": [
+        "1e5bfa5d7f96c5dc49b4c9a3eda02176668639b99681702a8ce2a66a52269ddb",
+        "9f253d76d52e040fafff667083bf62ec68e901aab27760672678d44188c4c156"
+    ],
+    "depends": ["games/project64"],
+    "pre_install": [
+        "Set-Content -Path \"$original_dir\\run.bat\" -Value \"$scoopdir\\apps\\project64\\current\\Project64.exe $dir\\game.n64\""
+    ],
+    "shortcuts": [
+        [
+            "run.bat",
+            "Gamename",
+            "",
+            "icon.ico"
+        ]
+    ]
+}
