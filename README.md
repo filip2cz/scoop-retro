@@ -50,6 +50,7 @@ Use manifestname from tables below instead of `<manifestname>`.
 | Minesweeper / Hledání min                 | minesweeper-cz        | Win x86       | native                | Czech   | Version from Windows XP |
 | Need for Speed                            | needforspeed          | MS-DOS        | emulator - DOSBox                     | English   |       |
 | Plants vs Zombies                         | PlantsVsZombies       | Win x86       | native | English | Version with good old dancing zombies  |
+| Plants vs Zombies                         | PlantsVsZombiesPs3    | PlayStation 3 | emulator - RPCS3                      | English   |       |
 | Playboy                                   | playboy               | MS-DOS        | emulator - DOSBox                     | Czech     |       |
 | PortaMonkey                               | PortaMonkey           | PalmOS        | emulator - Mu with Retroarch          | English   |       |
 | Solitaire + Spider Solitaire              | solitaire             | Win x86       | native                | English | Version from Windows XP |
