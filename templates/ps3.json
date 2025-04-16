@@ -1,0 +1,26 @@
+{
+    "version": "1.0",
+    "license": "unknown",
+    "homepage": "https://example.com/",
+    "url": [
+        "https://example.com/game.zip",
+        "https://example.com/game.ico#/icon.ico"
+    ],
+    "hash": [
+        "F23935F28E628B6E9465DE9997A65DF47F33863DFB20889BDF0A8F73EA4FE3E9",
+        "ba69b4cfa9e903e7390ad8a29d0172d921695259928d2f14a704f40e01535ee1"
+    ],
+    "depends": ["games/rpcs3"],
+    "pre_install": [
+        "7z x \"$dir\\isofile.iso\" -o\"$dir\\gamedir\\\"",
+        "Set-Content -Path \"$original_dir\\run.bat\" -Value \"$scoopdir\\apps\\rpcs3\\current\\rpcs3.exe $dir\\gamedir\\\""
+    ],
+    "shortcuts": [
+        [
+            "run.bat",
+            "Gamename",
+            "",
+            "icon.ico"
+        ]
+    ]
+}
