@@ -12,7 +12,6 @@
     ],
     "depends": ["main/dosbox"],
     "pre_install": [
-
         "Set-Content -Path \"$original_dir\\run.bat\" -Value \"dosbox $dir\\GAME.EXE -exit\""
     ],
     "shortcuts": [
