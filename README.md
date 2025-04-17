@@ -92,7 +92,7 @@ You should have icon in your start menu. If you can't find it, try to find `Scoo
 Apps are installed by default into scoop folder in your home directory.
 
 ### Isn't it virus?
-This repo is not any software technically. It is just instructions for Scoop (https://scoop.sh/) where to download things. Scoop is not virus, it is opensource and community trusted software. Games and software is mostly downloaded from archive.org, you can everytime check if you trust source with command `scoop cat <manifestname>` and find download url.
+This repo is not any software technically. It is just instructions for Scoop (https://scoop.sh/) how and where download things. Scoop is not a virus, it is opensource and community trusted software. You can everytime check if you trust source with command `scoop cat <manifestname>` and find download url.
 
 ### What is source of this software?
-Games and software is mostly downloaded from archive.org, you can everytime check if you trust source with command `scoop cat <manifestname>` and find download url.
+You can everytime check if you trust source with command `scoop cat <manifestname>` and find download url.
