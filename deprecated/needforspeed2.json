@@ -1,26 +1,28 @@
 {
     "version": "1.0",
     "license": "unknown",
-    "homepage": "https://archive.org/details/NeedForSpeedIIPlusSE-and-OverDrivin-LivBs",
+    "homepage": "https://www.romspedia.com/roms/playstation-3/plants-vs-zombies",
     "url": [
-        "https://archive.org/download/NeedForSpeedIIPlusSE-and-OverDrivin-LivBs/PSX/Need%20for%20Speed%20II%20%28USA%29.zip",
+        "https://serve.emulatorgames.net/roms/playstation/Need%20for%20Speed%20II%20(USA).7z",
         "https://cdn2.steamgriddb.com/icon/9b31229c5fd58c1ddb694f0232d0dd1f.ico#/icon.ico"
     ],
     "hash": [
-        "af93f3dc66ab2155b2d74a409754987a07c1bd42115a1d50bc8b3760097dc956",
+        "5fcaae12af4cb93363537db082b920150d87316ab08f4da698da5e68d90156f9",
         "17ce04ba20fe8464615aeef516ccf2d1aadcdeb7b1f70ef123af50683986612a"
     ],
+    "extract_to": [
+        "game"
+    ],
     "depends": ["games/duckstation", "filip2cz_scoop-retro/SCPH1001"],
+    "pre_install": [
+        "Set-Content -Path \"$original_dir\\run.bat\" -Value \"$scoopdir\\apps\\duckstation\\current\\duckstation-qt-x64-ReleaseLTCG.exe --bios-path $dir\\game\\Need for Speed II (USA).cue\""
+    ],
     "shortcuts": [
         [
             "run.bat",
-            "Need for Speed 2"
+            "Need For Speed 2",
+            "",
+            "icon.ico"
         ]
-    ],
-    "pre_install":[
-        "Set-Content -Path '~\\scoop\\apps\\needforspeed2\\1.0\\run.bat' -Value '%userprofile%\\scoop\\apps\\duckstation\\current\\duckstation-qt-x64-ReleaseLTCG.exe %userprofile%\\scoop\\apps\\needforspeed2\\current\\Need for Speed II (USA).bin'"
-    ],
-    "post_install":[
-        "$shortcutPath = Join-Path $env:USERPROFILE 'AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Scoop Apps\\Need for Speed 2.lnk'; $iconPath = Join-Path $env:USERPROFILE 'scoop\\apps\\needforspeed2\\current\\icon.ico'; $shell = New-Object -ComObject WScript.Shell; $shortcut = $shell.CreateShortcut($shortcutPath); $shortcut.IconLocation = $iconPath; $shortcut.Save()"
     ]
 }
