@@ -41,6 +41,7 @@ Use manifestname from tables below instead of `<manifestname>`.
 | Driver            | Driver | Win x86 | native | English | If it crashes, you can run it in compatability mode - Windows XP service pack 3 |
 | Duke Nukem 3D                             | duke3d                | MS-DOS        | emulator - DOSBox                     | English   |       |
 | Dyna Blaster                              | DynaBlaster   | MS-DOS | emulator - DOSBox | English   | This game is also known as Bomberman |
+| Fallout: Brotherhood of Steel | FalloutBrotherhoodofSteel-PS2 | PS2 | pcsx2 | English |  |
 | Fallout Van Buren      | FalloutVanBuren | Win x86 | native | English   | This game was canceled after bankrupt, so this is only playtest |
 | F1 Race                                   | f1race                | NES           | emulator - Mesen                      | English   |       |
 | Grand Theft Auto                          | GrandTheftAuto        | MS-DOS        | emulator - DOSBox                     | English   |       |
