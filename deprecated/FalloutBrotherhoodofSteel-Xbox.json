@@ -1,0 +1,25 @@
+{
+    "version": "1.0",
+    "license": "abandonware",
+    "homepage": "https://crocdb.net/rom/fallout-brotherhood-of-steel-xbox-eu/",
+    "url": [
+        "https://myrient.erista.me/files/Redump/Microsoft%20-%20Xbox/Fallout%20-%20Brotherhood%20of%20Steel%20%28Europe%29%20%28En%2CFr%2CDe%29.zip",
+        "https://cdn2.steamgriddb.com/icon/c254eaf30893f49706260c2d22fe6148.png#/icon.ico"
+    ],
+    "hash": [
+        "2d198932d742465d3c8c8fb134dac22208cf7c22a02ac554b4130d78ccd7dcea",
+        "ec5a2b5b14dd7704efa94b004035cfe6cef8a02da465c54b70b785f2eed2a3f3"
+    ],
+    "depends": ["games/xemu", "filip2cz_scoop-retro/ps2-bios-usa"],
+    "pre_install": [
+        "Set-Content -Path \"$dir\\run.bat\" -Value \"xemu -dvd_path $dir\\FALLOUTBOS.ISO\""
+    ],
+    "shortcuts": [
+        [
+            "run.bat",
+            "Fallout Brotherhood of Steel Xbox",
+            "",
+            "icon.ico"
+        ]
+    ]
+}
