@@ -15,7 +15,8 @@
     ],
     "depends": ["games/duckstation", "filip2cz_scoop-retro/SCPH1001"],
     "pre_install": [
-        "Set-Content -Path \"$original_dir\\run.bat\" -Value \"$scoopdir\\apps\\duckstation\\current\\duckstation-qt-x64-ReleaseLTCG.exe --bios-path $dir\\game\\Need for Speed II (USA).cue\""
+        "New-Item -ItemType SymbolicLink -Path \"$dir\\SCPH1001.BIN\" -Target \"$scoopdir\\apps\\SCPH1001\\current\\SCPH1001.BIN\"",
+        "Set-Content -Path \"$original_dir\\run.bat\" -Value \"duckstation $dir\\game\\Need for Speed II (USA).cue\""
     ],
     "shortcuts": [
         [
